@@ -228,6 +228,7 @@ section {
 
 .para p {
     font-size: 37px;
+    margin-left: -19px;
 }
 
 .para span {
@@ -1182,11 +1183,10 @@ section{
     }
 
     .para {
-        width: 100%;
+        width: 150%;
         display: flex;
         align-items: center;
-        flex-wrap: wrap
-        ;
+        flex-wrap: wrap;
     }
 
     .para span {
