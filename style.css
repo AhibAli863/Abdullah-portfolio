@@ -187,9 +187,11 @@ section {
     border: 5px solid rgb(230, 12, 102);
     border-radius: 50%;
     max-width: 450px;
-    background-image: url(Ali.png.jpeg);
+    background-image: url(ahib.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     margin-right: -70px;
     transition: all .3s;
 }
@@ -524,16 +526,8 @@ h2 {
     transform: rotate(288deg);
 }
 
-
-.percentage-2 .svg-2 {
-    position: relative;
-    width: 160px;
-    height: 160px;
-    transform: rotate(288deg);
-}
-
 svg circle {
-    stroke-width: 5;
+    stroke-width: 7;
     stroke: black;
     fill: transparent;
     transform: translate(5px, 5px);
@@ -554,16 +548,14 @@ svg circle:nth-child(2) {
 }
 
 .dot-2 {
-    position: relative;
     left: -12px;
     top: 11px;
 }
 
 
 .dot-3 {
-    position: relative;
-    top: 135px;
-    left: -2px;
+    top: 70px;
+    left: -53px;
 }
 
 .number #svg {
@@ -580,10 +572,10 @@ svg circle:nth-child(2) {
 .dot::before {
     content: '';
     position: absolute;
-    width: 12px;
-    height: 12px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-    left: 23%;
+    left: 20%;
     transform: translateX(50%);
     background-color: var(--clr);
     top: 6px;
